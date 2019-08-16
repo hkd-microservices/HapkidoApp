@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class Dashboard extends StatefulWidget {
   static const TextStyle optionStyle =
       TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
-  static const List<Widget> _widgetOptions = <Widget>[
+  static const _widgetOptions = <Widget>[
     Text(
       'Index 0: Home',
       style: optionStyle,

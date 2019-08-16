@@ -17,23 +17,21 @@ class Authpage extends StatelessWidget {
       ),
       child: new Column(
         children: <Widget>[
-          Container(
-            padding: EdgeInsets.only(top: 250.0),
-            child: Center(
-              child: Icon(
-                Icons.headset_mic,
-                color: Colors.white,
-                size: 40.0,
-              ),
-            ),
-          ),
+        new Image(
+        image: new ExactAssetImage("assets/images/mountains.jpg"),
+        width: 200,
+        height: 200,
+        color: null,
+        fit: BoxFit.scaleDown,
+        alignment: Alignment.center,
+),
           Container(
             padding: EdgeInsets.only(top: 20.0),
             child: new Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 Text(
-                  "Awesome",
+                  "HAPKIDO",
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 20.0,
@@ -53,6 +51,7 @@ class Authpage extends StatelessWidget {
             width: MediaQuery.of(context).size.width,
             margin: const EdgeInsets.only(left: 30.0, right: 30.0, top: 150.0),
             alignment: Alignment.center,
+            
             child: new Row(
               children: <Widget>[
                 new Expanded(
