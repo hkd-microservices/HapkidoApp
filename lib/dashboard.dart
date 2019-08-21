@@ -51,7 +51,7 @@ class _DashboardState extends State<Dashboard> {
               currentAccountPicture: CircleAvatar(
                 // backgroundColor: Colors.brown,
                 // foregroundColor: Colors.red,
-                backgroundImage: ExactAssetImage('assets/images/mountains.jpg'),
+                backgroundImage: ExactAssetImage('assets/images/fundo_app.png'),
               ),
               decoration: BoxDecoration(
                   image: DecorationImage(
@@ -116,7 +116,7 @@ class _DashboardState extends State<Dashboard> {
           ),
         ],
         currentIndex: _selectedIndex,
-        selectedItemColor: Colors.amber[800],
+        selectedItemColor: const Color(0xff4493cd),
         onTap: _onItemTapped,
       ),
     );

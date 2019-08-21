@@ -25,9 +25,19 @@ dependencies:
   cupertino_icons: ^0.1.2
 
 dev_dependencies:
-  flutter_test:
+   flutter_test:
     sdk: flutter
 
+   flutter_launcher_icons: "^0.7.0"
+
+flutter_icons:
+  ios: true
+  android: true
+  image_path_ios: "assets/launcher/hapkido_logo.jpg"
+  image_path_android: "assets/launcher/hapkido_logo.jpg"   
+  adaptive_icon_background: "assets/launcher/hapkido_logo.jpg"
+  adaptive_icon_foreground: "assets/launcher/hapkido_logo.jpg"
+  
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -40,9 +50,12 @@ flutter:
   # the material Icons class.
   uses-material-design: true
   assets:
-    - assets/images/mountains.jpg
+    - assets/images/fighterlogo.png
     - assets/images/fundo_app.png
 
+
+ 
+  
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 
